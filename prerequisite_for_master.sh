@@ -18,7 +18,7 @@ sudo echo "export JAVA_LIBRARY_PATH=$HADOOP_HOME/lib/native:$JAVA_LIBRARY_PATH" 
 
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get install default-jdk ssh rsync
+sudo apt-get install default-jdk ssh rsync rpm
 ssh-keygen -t dsa -P '' -f ~/.ssh/id_dsa 
 cat ~/.ssh/id_dsa.pub >> ~/.ssh/authorized_keys
 
